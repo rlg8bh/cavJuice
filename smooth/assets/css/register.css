@@ -1,0 +1,53 @@
+
+
+.signuploginContainer {
+	padding: 100px 50px 10px 50px;
+    background-color: transparent;
+
+	font-weight: 200px;
+	display: inline;
+	width: 100%;
+	border-right: 2px solid black;
+	float: left;
+}
+
+.signuploginContainer h2 {
+	padding: 15px;
+}
+
+
+.signuploginContainer * {
+	color: black;
+	font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	font-weight: normal;
+	line-height: 1em;
+	box-sizing: border-box;
+}
+
+.signupContainer {
+	float: left;
+	width: 50%;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.loginContainer {
+	float: right;
+	width: 50%;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+
+.signuploginContainer input[type="text"],
+.signuploginContainer input[type="email"],
+.signuploginContainer input[type="password"] {
+	display: block;
+    background-color: lightgrey;
+    border: 0;
+    border-bottom: 1px solid #fff;
+    height: 27px;
+    line-height: 27px;
+    width: 100%;
+}
+
